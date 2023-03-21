@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kitch&#39;s Blog</title>
+    <title>Nathan&#39;s Blog</title>
     <link>https://kitchvx.github.io/</link>
-    <description>Recent content on Kitch&#39;s Blog</description>
+    <description>Recent content on Nathan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright © 2023 Nathan Kitching</copyright>
     <lastBuildDate>Tue, 21 Mar 2023 18:21:42 +0000</lastBuildDate><atom:link href="https://kitchvx.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
