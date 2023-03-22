@@ -1,44 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nathan&#39;s Blog</title>
-    <link>https://kitchvx.github.io/</link>
-    <description>Recent content on Nathan&#39;s Blog</description>
+    <title>Web Development on Nathan&#39;s Blog</title>
+    <link>https://kitchvx.github.io/tags/web-development/</link>
+    <description>Recent content in Web Development on Nathan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2023 Nathan Kitching</copyright>
-    <lastBuildDate>Tue, 21 Mar 2023 18:21:42 +0000</lastBuildDate><atom:link href="https://kitchvx.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Contact</title>
-      <link>https://kitchvx.github.io/posts/contact/</link>
-      <pubDate>Tue, 21 Mar 2023 18:21:42 +0000</pubDate>
-      
-      <guid>https://kitchvx.github.io/posts/contact/</guid>
-      <description>You can reach me at: Email Twitter Telegram Instagram Social Media such as Facebook I am on, however I am inactive. These are the only places you can reach me where I am active, anything else I either no longer use or don&amp;rsquo;t use.</description>
-      <content>&lt;h1 id=&#34;you-can-reach-me-at&#34;&gt;You can reach me at:&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;mailto:nathk.nk1214@gmail.com&#34;&gt;Email&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/Kitchvx/&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://t.me/Kitchvx/&#34;&gt;Telegram&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://instagram.com/1214.kitch/&#34;&gt;Instagram&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Social Media such as Facebook I am on, however I am inactive. These are the only places you can reach me where I am active, anything else I either no longer use or don&amp;rsquo;t use.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://kitchvx.github.io/posts/about/</link>
-      <pubDate>Tue, 21 Mar 2023 17:56:28 +0000</pubDate>
-      
-      <guid>https://kitchvx.github.io/posts/about/</guid>
-      <description>About Me. Hi! I&amp;rsquo;m Nathan. I&amp;rsquo;m an 18 y.o tech enthusiast. My hobbies include gaming, video editing, photo manipulation, reading books, socialising with friends and going to the gym. I have a keen interest in computers, computer repair and hardware/software hacking/cybersecurity. I am currently studying a level 3 in BTEC Information Technology at college while persuing apprenticeships for when I leave. In my spare time I like to start projects, such as this Hugo website.</description>
-      <content>&lt;h1 id=&#34;about-me&#34;&gt;About Me.&lt;/h1&gt;
-&lt;h2 id=&#34;hi-im-nathan&#34;&gt;Hi! I&amp;rsquo;m Nathan.&lt;/h2&gt;
-&lt;p&gt;I&amp;rsquo;m an 18 y.o tech enthusiast. My hobbies include gaming, video editing, photo manipulation, reading books, socialising with friends and going to the gym. I have a keen interest in computers, computer repair and hardware/software hacking/cybersecurity. I am currently studying a level 3 in BTEC Information Technology at college while persuing apprenticeships for when I leave. In my spare time I like to start projects, such as this Hugo website. I&amp;rsquo;m currently working two part time job, one working at a local bar in my town and the other working for a local shop maintaining and managing the website.&lt;/p&gt;
-</content>
-    </item>
-    
+    <lastBuildDate>Tue, 21 Mar 2023 17:56:28 +0000</lastBuildDate><atom:link href="https://kitchvx.github.io/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Website</title>
       <link>https://kitchvx.github.io/projects/website/</link>

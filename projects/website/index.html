@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Website :: Nathan&#39;s Blog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Going over the entire process on the development of my website, including installing Hugo and using Github Pages." />
+<meta name="keywords" content="Website, Hugo, Web Development" />
+<meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://kitchvx.github.io/projects/website/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://kitchvx.github.io/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="https://kitchvx.github.io/img/theme-colors/green.png">
+  <link rel="apple-touch-icon" href="https://kitchvx.github.io/img/theme-colors/green.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="Kitchvx" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Website">
+<meta property="og:description" content="Going over the entire process on the development of my website, including installing Hugo and using Github Pages." />
+<meta property="og:url" content="https://kitchvx.github.io/projects/website/" />
+<meta property="og:site_name" content="Nathan&#39;s Blog" />
+
+  
+  
+  <meta property="og:image" content="https://kitchvx.github.io/">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2023-03-21 17:56:28 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="green">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Nathan&#39;s Blog
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/posts/about/">About</a></li>
+        
+      
+        
+          <li><a href="/posts/contact/">Contact</a></li>
+        
+      
+        
+          <li><a href="/projects">Projects</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/posts/about/">About</a></li>
+        
+      
+        
+          <li><a href="/posts/contact/">Contact</a></li>
+        
+      
+        
+          <li><a href="/projects">Projects</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://kitchvx.github.io/projects/website/">Website</a>
+  </h1>
+  <div class="post-meta">
+    
+      <time class="post-date">
+        2023-03-21 ::
+        
+          [Updated :: 2023-03-21]
+        
+      </time>
+    
+    
+      <span class="post-author">Nathan</span>
+    
+    
+      <span class="post-reading-time">:: 3 min read (457 words)</span>
+    
+  </div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="https://kitchvx.github.io/tags/web-development/">Web Development</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="overview">Overview<a href="#overview" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>In this post, I am going to go through the process on how I got to this point in the website project. As I make this the website isn&rsquo;t 100% complete and this will be update as the site is changed along the way. I created this website as a place to showcase all my projects and proud achivements that will hopefully get the attention of someone that will then use these posts to kickstart their career. Now time to get started!</p>
+<h1 id="prerequisites">Prerequisites<a href="#prerequisites" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>Firstly, the website is built upon the <a href="https://gohugo.io">Hugo</a> framework, before we can get started we need to install Hugo.</p>
+<ul>
+<li>Installing Hugo:</li>
+</ul>
+<p>Hugo is supported on <a href="https://en.wikipedia.org/wiki/MacOS">macOS</a>, <a href="https://en.wikipedia.org/wiki/Windows_10">Windows</a>, <a href="https://en.wikipedia.org/wiki/Linux">Linux</a> and <a href="https://en.wikipedia.org/wiki/Berkeley_Software_Distribution">BSD</a>. I have been using Windows 10 for the development and deployment at this current stage (22/03/23), I have yet to start using Hugo on <a href="https://wiki.archlinux.org/title/Arch_Linux">Arch Linux</a> which is my perfered distribution. The Linux installation is relatively simple.</p>
+<ul>
+<li>Linux Installation:</li>
+</ul>
+<p>Depending on your distro of choice it will be as simple as typing a few commands for your <a href="https://itsfoss.com/package-manager/">package manager</a>, Hugo&rsquo;s documentation goes over this <a href="https://gohugo.io/installation/linux/">here</a>.</p>
+<p>For me because I use Arch I will use <a href="https://wiki.archlinux.org/title/pacman">pacman</a>.</p>
+<ol>
+<li>Update the repositories.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>sudo pacman -Syu
+</span></span></code></pre></div><ol start="2">
+<li>Install Hugo.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>sudo pacman -S hugo
+</span></span></code></pre></div><p>After Hugo has been installed, make sure you have <a href="https://en.wikipedia.org/wiki/Git">git</a> as we will be using this too but this should already be installed.</p>
+<ol>
+<li>Install git.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>sudo pacman -S git
+</span></span></code></pre></div><ul>
+<li>Windows Installation:</li>
+</ul>
+<p>The Windows installation isn&rsquo;t as simple as Linux&rsquo;s installation, who could&rsquo;ve guessed? Firstly you will need to aquire the .zip file and make sure <a href="https://en.wikipedia.org/wiki/Git">git</a> is installed, the download for git can be found <a href="https://git-scm.com/download/win">here</a>. If you have no way of unzipping the .zip file you can head to <a href="https://en.wikipedia.org/wiki/WinRAR">winrar&rsquo;s</a> <a href="https://www.win-rar.com/start.html?&amp;L=0">website</a> to install it, free of charge. Now we can head to the <a href="https://github.com/gohugoio/hugo/releases">Hugo release</a> page on github to install the latest version (at the time of writting it the latest version is v0.111.3). Once these have been aquired we can start. Extract the files from the zip file, I have placed my Hugo install into <code>C:\Hugo\bin</code>, and you will then want to open up the <a href="https://www.google.com/search?q=what+is+windows+environment+variables">Enviroment Variables</a> Editor(?) you can find this by pressing <code>Win + R</code> and typing <code>SystemPropertiesAdvanced</code> in to the dialogue box you then want to find <code>Path</code> under User variables for your user, press edit and add your Hugo binaries to it (this will be the location you have the <code>Hugo.exe</code> in). Once this is done we can start using Hugo.</p>
+<p>My current setup for this is using the terminal to setup a new Hugo site and commit any changes made to Github while using <a href="https://en.wikipedia.org/wiki/Visual_Studio_Code">Visual Studio Code</a> to edit text/code. Alternatively you can use VS Code to commit changes to Github by installing the <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github">Github Pull</a> extenstion.</p>
+<h1 id="using-hugo">Using Hugo<a href="#using-hugo" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>Copyright © 2023 Nathan Kitching</span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
