@@ -178,7 +178,7 @@
   <div class="post-content"><div>
         <h1 id="about-me">About Me.<a href="#about-me" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <h2 id="hi-im-nathan">Hi! I&rsquo;m Nathan.<a href="#hi-im-nathan" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
-<p>I&rsquo;m an 18 y.o tech enthusiast. My hobbies include gaming, video editing, photo manipulation, reading books, socialising with friends and going to the gym. I have a keen interest in computers, computer repair and hardware/software hacking/cybersecurity. I am currently studying a level 3 in BTEC Information Technology at college while persuing apprenticeships for when I leave. In my spare time I like to start projects, such as this Hugo website. I&rsquo;m currently working two part time job, one working at a local bar in my town and the other working for a local shop maintaining and managing the website.</p>
+<p>I&rsquo;m an 18 y.o tech enthusiast. My hobbies include gaming, video editing, photo manipulation, reading books, socialising with friends and going to the gym. I have a keen interest in computers, computer repair and hardware/software hacking/cybersecurity. I am currently studying a level 3 in BTEC Information Technology at college while persuing apprenticeships for when I leave. In my spare time I like to start projects, such as this Hugo website. I&rsquo;m currently working two part time jobs, one working at a local bar in my town and the other working for a local shop maintaining and managing the website.</p>
 
       </div></div>
 
@@ -205,8 +205,26 @@
   
 
   
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
     
-
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "KDisqus" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   
 </article>
 

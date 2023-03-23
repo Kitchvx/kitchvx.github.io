@@ -44,9 +44,20 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;Windows Installation:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The Windows installation isn&amp;rsquo;t as simple as Linux&amp;rsquo;s installation, who could&amp;rsquo;ve guessed? Firstly you will need to aquire the .zip file and make sure &lt;a href=&#34;https://en.wikipedia.org/wiki/Git&#34;&gt;git&lt;/a&gt; is installed, the download for git can be found &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;here&lt;/a&gt;. If you have no way of unzipping the .zip file you can head to &lt;a href=&#34;https://en.wikipedia.org/wiki/WinRAR&#34;&gt;winrar&amp;rsquo;s&lt;/a&gt; &lt;a href=&#34;https://www.win-rar.com/start.html?&amp;amp;L=0&#34;&gt;website&lt;/a&gt; to install it, free of charge. Now we can head to the &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;Hugo release&lt;/a&gt; page on github to install the latest version (at the time of writting it the latest version is v0.111.3). Once these have been aquired we can start. Extract the files from the zip file, I have placed my Hugo install into &lt;code&gt;C:\Hugo\bin&lt;/code&gt;, and you will then want to open up the &lt;a href=&#34;https://www.google.com/search?q=what+is+windows+environment+variables&#34;&gt;Enviroment Variables&lt;/a&gt; Editor(?) you can find this by pressing &lt;code&gt;Win + R&lt;/code&gt; and typing &lt;code&gt;SystemPropertiesAdvanced&lt;/code&gt; in to the dialogue box you then want to find &lt;code&gt;Path&lt;/code&gt; under User variables for your user, press edit and add your Hugo binaries to it (this will be the location you have the &lt;code&gt;Hugo.exe&lt;/code&gt; in). Once this is done we can start using Hugo.&lt;/p&gt;
+&lt;p&gt;The Windows installation isn&amp;rsquo;t as simple as Linux&amp;rsquo;s installation, who could&amp;rsquo;ve guessed? Firstly you will need to aquire the .zip file and make sure &lt;a href=&#34;https://en.wikipedia.org/wiki/Git&#34;&gt;git&lt;/a&gt; is installed, the download for git can be found &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;here&lt;/a&gt;. If you have no way of unzipping the .zip file you can head to &lt;a href=&#34;https://en.wikipedia.org/wiki/WinRAR&#34;&gt;winrar&amp;rsquo;s&lt;/a&gt; &lt;a href=&#34;https://www.win-rar.com/start.html?&amp;amp;L=0&#34;&gt;website&lt;/a&gt; to install it, free of charge. Now we can head to the &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;Hugo release&lt;/a&gt; page on github to install the latest version (at the time of writting it the latest version is v0.111.3). Once these have been aquired we can start. Extract the files from the zip file, I have placed my Hugo install into &lt;code&gt;C:\Hugo\bin&lt;/code&gt;, and you will then want to open up the &lt;a href=&#34;https://www.google.com/search?q=what+is+windows+environment+variables&#34;&gt;Enviroment Variables&lt;/a&gt; Editor(?) you can find this by pressing &lt;code&gt;Win + R&lt;/code&gt; and typing &lt;code&gt;SystemPropertiesAdvanced&lt;/code&gt; in to the dialogue box you then want to find &lt;code&gt;Path&lt;/code&gt; under User variables for your user, press edit&lt;/p&gt;
+
+  &lt;img src=&#34;https://kitchvx.github.io/images/envtable1.png&#34;  alt=&#34;Screenshot 1&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+&lt;p&gt;and add your Hugo binaries to it (this will be the location you have the &lt;code&gt;Hugo.exe&lt;/code&gt; in).&lt;/p&gt;
+
+  &lt;img src=&#34;https://kitchvx.github.io/images/envtable2.png&#34;  alt=&#34;Screenshot 2&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+&lt;p&gt;Once this is done we can start using Hugo.&lt;/p&gt;
 &lt;p&gt;My current setup for this is using the terminal to setup a new Hugo site and commit any changes made to Github while using &lt;a href=&#34;https://en.wikipedia.org/wiki/Visual_Studio_Code&#34;&gt;Visual Studio Code&lt;/a&gt; to edit text/code. Alternatively you can use VS Code to commit changes to Github by installing the &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github&#34;&gt;Github Pull&lt;/a&gt; extenstion.&lt;/p&gt;
 &lt;h1 id=&#34;using-hugo&#34;&gt;Using Hugo&lt;/h1&gt;
+&lt;h1 id=&#34;comments&#34;&gt;Comments&lt;/h1&gt;
 </content>
     </item>
     

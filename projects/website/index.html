@@ -159,7 +159,7 @@
       <span class="post-author">Nathan</span>
     
     
-      <span class="post-reading-time">:: 3 min read (457 words)</span>
+      <span class="post-reading-time">:: 3 min read (458 words)</span>
     
   </div>
 
@@ -205,17 +205,46 @@
 </span></span></code></pre></div><ul>
 <li>Windows Installation:</li>
 </ul>
-<p>The Windows installation isn&rsquo;t as simple as Linux&rsquo;s installation, who could&rsquo;ve guessed? Firstly you will need to aquire the .zip file and make sure <a href="https://en.wikipedia.org/wiki/Git">git</a> is installed, the download for git can be found <a href="https://git-scm.com/download/win">here</a>. If you have no way of unzipping the .zip file you can head to <a href="https://en.wikipedia.org/wiki/WinRAR">winrar&rsquo;s</a> <a href="https://www.win-rar.com/start.html?&amp;L=0">website</a> to install it, free of charge. Now we can head to the <a href="https://github.com/gohugoio/hugo/releases">Hugo release</a> page on github to install the latest version (at the time of writting it the latest version is v0.111.3). Once these have been aquired we can start. Extract the files from the zip file, I have placed my Hugo install into <code>C:\Hugo\bin</code>, and you will then want to open up the <a href="https://www.google.com/search?q=what+is+windows+environment+variables">Enviroment Variables</a> Editor(?) you can find this by pressing <code>Win + R</code> and typing <code>SystemPropertiesAdvanced</code> in to the dialogue box you then want to find <code>Path</code> under User variables for your user, press edit and add your Hugo binaries to it (this will be the location you have the <code>Hugo.exe</code> in). Once this is done we can start using Hugo.</p>
+<p>The Windows installation isn&rsquo;t as simple as Linux&rsquo;s installation, who could&rsquo;ve guessed? Firstly you will need to aquire the .zip file and make sure <a href="https://en.wikipedia.org/wiki/Git">git</a> is installed, the download for git can be found <a href="https://git-scm.com/download/win">here</a>. If you have no way of unzipping the .zip file you can head to <a href="https://en.wikipedia.org/wiki/WinRAR">winrar&rsquo;s</a> <a href="https://www.win-rar.com/start.html?&amp;L=0">website</a> to install it, free of charge. Now we can head to the <a href="https://github.com/gohugoio/hugo/releases">Hugo release</a> page on github to install the latest version (at the time of writting it the latest version is v0.111.3). Once these have been aquired we can start. Extract the files from the zip file, I have placed my Hugo install into <code>C:\Hugo\bin</code>, and you will then want to open up the <a href="https://www.google.com/search?q=what+is+windows+environment+variables">Enviroment Variables</a> Editor(?) you can find this by pressing <code>Win + R</code> and typing <code>SystemPropertiesAdvanced</code> in to the dialogue box you then want to find <code>Path</code> under User variables for your user, press edit</p>
+
+  <img src="/images/envtable1.png"  alt="Screenshot 1"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>and add your Hugo binaries to it (this will be the location you have the <code>Hugo.exe</code> in).</p>
+
+  <img src="/images/envtable2.png"  alt="Screenshot 2"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>Once this is done we can start using Hugo.</p>
 <p>My current setup for this is using the terminal to setup a new Hugo site and commit any changes made to Github while using <a href="https://en.wikipedia.org/wiki/Visual_Studio_Code">Visual Studio Code</a> to edit text/code. Alternatively you can use VS Code to commit changes to Github by installing the <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github">Github Pull</a> extenstion.</p>
 <h1 id="using-hugo">Using Hugo<a href="#using-hugo" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<h1 id="comments">Comments<a href="#comments" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 
       </div></div>
 
   
 
   
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
     
-
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "KDisqus" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   
 </article>
 
