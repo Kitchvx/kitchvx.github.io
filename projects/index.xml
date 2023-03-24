@@ -14,9 +14,9 @@
       <pubDate>Tue, 21 Mar 2023 17:56:28 +0000</pubDate>
       
       <guid>https://kitchvx.github.io/projects/website/</guid>
-      <description>Overview In this post, I am going to go through the process on how I got to this point in the website project. As I make this the website isn&amp;rsquo;t 100% complete and this will be update as the site is changed along the way. I created this website as a place to showcase all my projects and proud achivements that will hopefully get the attention of someone that will then use these posts to kickstart their career.</description>
+      <description>Overview In this post, I am going to go through the process on how I got to this point in the website project. As I make this the website isn&amp;rsquo;t 100% complete and this will be updated as the site is changed along the way. I created this website as a place to showcase all my projects and proud achivements that will hopefully get the attention of someone that will then use these posts to kickstart their career.</description>
       <content>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
-&lt;p&gt;In this post, I am going to go through the process on how I got to this point in the website project. As I make this the website isn&amp;rsquo;t 100% complete and this will be update as the site is changed along the way. I created this website as a place to showcase all my projects and proud achivements that will hopefully get the attention of someone that will then use these posts to kickstart their career. Now time to get started!&lt;/p&gt;
+&lt;p&gt;In this post, I am going to go through the process on how I got to this point in the website project. As I make this the website isn&amp;rsquo;t 100% complete and this will be updated as the site is changed along the way. I created this website as a place to showcase all my projects and proud achivements that will hopefully get the attention of someone that will then use these posts to kickstart their career. Now time to get started!&lt;/p&gt;
 &lt;h1 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h1&gt;
 &lt;p&gt;Firstly, the website is built upon the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; framework, before we can get started we need to install Hugo.&lt;/p&gt;
 &lt;ul&gt;
@@ -37,7 +37,7 @@
 &lt;/ol&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -S hugo
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After Hugo has been installed, make sure you have &lt;a href=&#34;https://en.wikipedia.org/wiki/Git&#34;&gt;git&lt;/a&gt; as we will be using this too but this should already be installed.&lt;/p&gt;
-&lt;ol&gt;
+&lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;Install git.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -S git
