@@ -58,6 +58,7 @@
 &lt;p&gt;My current setup for this is using the terminal to setup a new Hugo site and commit any changes made to Github while using &lt;a href=&#34;https://en.wikipedia.org/wiki/Visual_Studio_Code&#34;&gt;Visual Studio Code&lt;/a&gt; to edit text/code. Alternatively you can use VS Code to commit changes to Github by installing the &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github&#34;&gt;Github Pull&lt;/a&gt; extenstion.&lt;/p&gt;
 &lt;h1 id=&#34;using-hugo&#34;&gt;Using Hugo&lt;/h1&gt;
 &lt;h1 id=&#34;comments&#34;&gt;Comments&lt;/h1&gt;
+&lt;!-- raw HTML omitted --&gt;
 </content>
     </item>
     
