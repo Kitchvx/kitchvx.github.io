@@ -80,10 +80,10 @@
       <pubDate>Tue, 21 Mar 2023 17:56:28 +0000</pubDate>
       
       <guid>https://kitchvx.github.io/projects/website/</guid>
-      <description>Overview In this post, I am going to go through the process on how I got to this point in the website project. I will be going over this post in a guide fashion, so it will be treat as such. As I make this the website isn&amp;rsquo;t 100% complete and this will be updated as the site is changed along the way. I created this website as a place to showcase all my projects and proud achievements that will hopefully get the attention of someone that will then use these posts to kickstart their careers or help someone develop a passion.</description>
-      <content>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
-&lt;p&gt;In this post, I am going to go through the process on how I got to this point in the website project. I will be going over this post in a guide fashion, so it will be treat as such. As I make this the website isn&amp;rsquo;t 100% complete and this will be updated as the site is changed along the way. I created this website as a place to showcase all my projects and proud achievements that will hopefully get the attention of someone that will then use these posts to kickstart their careers or help someone develop a passion. Now time to get started!&lt;/p&gt;
-&lt;h1 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h1&gt;
+      <description>Overview In this post, I am going to go through the process on how I setup my website using Hugo and git, I realised it would take too long to go over every small detail so I will cover the neccessary steps in order to create a fresh site with the terminal theme and get it setup with git and git submodules for building the website. This will be formatted in a guide-like fashion, so it will be treat as such.</description>
+      <content>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;In this post, I am going to go through the process on how I setup my website using Hugo and git, I realised it would take too long to go over every small detail so I will cover the neccessary steps in order to create a fresh site with the &lt;a href=&#34;https://github.com/panr/hugo-theme-terminal&#34;&gt;terminal theme&lt;/a&gt; and get it setup with git and &lt;a href=&#34;https://git-scm.com/book/en/v2/Git-Tools-Submodules&#34;&gt;git submodules&lt;/a&gt; for building the website. This will be formatted in a guide-like fashion, so it will be treat as such. I created this website as a place to showcase all my projects and proud achievements that will hopefully get the attention of someone that will then use these posts to kickstart their careers or help someone develop a passion. Now time to get started!&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
 &lt;p&gt;Firstly, the website is built upon the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; framework, before we can get started we need to install Hugo.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Installing Hugo:&lt;/li&gt;
@@ -121,9 +121,10 @@
 
 
 &lt;p&gt;Once this is done we can start using Hugo.&lt;/p&gt;
-&lt;p&gt;My current setup for this is using the terminal to setup a new Hugo site and commit any changes made to Github while using &lt;a href=&#34;https://en.wikipedia.org/wiki/Visual_Studio_Code&#34;&gt;Visual Studio Code&lt;/a&gt; to edit text/code. Alternatively you can use VS Code to commit changes to Github by installing the &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github&#34;&gt;Github Pull&lt;/a&gt; extenstion.&lt;/p&gt;
-&lt;h1 id=&#34;using-hugo&#34;&gt;Using Hugo&lt;/h1&gt;
-&lt;p&gt;First things first, you will want to create a github repo and name it something relevent like, for example, &amp;ldquo;kitch-blog&amp;rdquo;. Mine is just called &amp;ldquo;hugo&amp;rdquo;, add a license if you feel the need to. Then we need to create the submodule repository, you will want to name this your username followed by &amp;ldquo;github.io&amp;rdquo;, mine for example is &amp;ldquo;kitchvx.github.io&amp;rdquo;. Now getting the theme is as simple as going to &lt;a href=&#34;https://themes.gohugo.io&#34;&gt;themes.gohugo.io&lt;/a&gt;. The theme I used is called &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-theme-terminal/&#34;&gt;terminal&lt;/a&gt;. before we clone the theme or start using hugo we need to clone the first repository and to do this you use the following command in your terminal:&lt;/p&gt;
+&lt;p&gt;My current setup for this is using the terminal to setup a new Hugo site and commit any changes made to Github while using &lt;a href=&#34;https://en.wikipedia.org/wiki/Visual_Studio_Code&#34;&gt;Visual Studio Code&lt;/a&gt; to edit text/code. Alternatively you can use VS Code to commit changes to Github by installing the &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github&#34;&gt;Github Pull&lt;/a&gt; extenstion. Alternatively on Linux I use Vim.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: From this point on all the steps are the same for each OS.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;hugo&#34;&gt;Using Hugo&lt;/h2&gt;
+&lt;p&gt;First things first, you will want to create a github repo and name it something relevent like, for example, &amp;ldquo;kitch-blog&amp;rdquo;. Mine is just called &amp;ldquo;hugo&amp;rdquo;, add a license if you feel the need to. Then we need to create the submodule repository, you will want to name this your username followed by &amp;ldquo;github.io&amp;rdquo;, mine for example is &amp;ldquo;kitchvx.github.io&amp;rdquo; and create a README and License file for the submodule repo. Now getting the theme is as simple as going to &lt;a href=&#34;https://themes.gohugo.io&#34;&gt;themes.gohugo.io&lt;/a&gt;. The theme I used is called &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-theme-terminal/&#34;&gt;terminal&lt;/a&gt;. before we clone the theme or start using hugo we need to clone the first repository and to do this you use the following command in your terminal:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/YOUR_NAME/YOUR_REPO.git
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Cd inside the repository using &lt;code&gt;cd&lt;/code&gt; command and use the &lt;code&gt;hugo new site&lt;/code&gt; command to generate a static website, you have to name it, I went with &lt;code&gt;hugo new site kitchblog&lt;/code&gt; and it will generate a site inside a new folder within the repository, cd into it and clone the theme:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/panr/hugo-theme-terminal.git themes/terminal
@@ -244,10 +245,14 @@ paginate = 5
 
 &lt;p&gt;If you are unsure what to do, you can mess around with the configs and check out what everything does. Before seeing the changes you will need to open a terminal and run:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo serve -t terminal
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Or you can run it with:&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Or you can run it with:&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo serve --disableFastRender --ignoreCache -t terminal
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The flag &lt;code&gt;--disbaleFastRender&lt;/code&gt;  enables full re-renders on changes and the flag &lt;code&gt;--ignoreCache&lt;/code&gt; ignores the cache directory for faster rebuilding times on local previews when saving changes. Now these times aren&amp;rsquo;t significant but when developing on lower end machines it may help.&lt;/p&gt;
-&lt;p&gt;Without &lt;code&gt;--disableFastRender&lt;/code&gt; and &lt;code&gt;--ignoreCache&lt;/code&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Without &lt;code&gt;--disableFastRender&lt;/code&gt; and &lt;code&gt;--ignoreCache&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
 
   &lt;img src=&#34;https://kitchvx.github.io/images/example1-render-times.png&#34;  alt=&#34;Example 1&#34;  class=&#34;left&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
 
@@ -257,7 +262,35 @@ paginate = 5
   &lt;img src=&#34;https://kitchvx.github.io/images/example2-render-times.png&#34;  alt=&#34;Example 2&#34;  class=&#34;left&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
 
 
-&lt;h1 id=&#34;comments&#34;&gt;Comments&lt;/h1&gt;
+&lt;p&gt;Now you can start creating posts for your blog, to do so you can use &lt;code&gt;hugo new posts/blog-post.md&lt;/code&gt;, now you have to specify the &amp;ldquo;posts/&amp;rdquo; folder and the name of the blog post and the &amp;ldquo;.md&amp;rdquo; (markdown) extension. If you are struggling with formatting markdown you can check the &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-theme-terminal/&#34;&gt;theme&amp;rsquo;s&lt;/a&gt; page and an online &lt;a href=&#34;https://www.markdownguide.org/cheat-sheet/&#34;&gt;cheat sheet&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
+&lt;p&gt;Once you have everything how you like to start with, its important to get everything on github so it&amp;rsquo;s safe while also hosting the website with &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github Pages&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To add the submodule you will want to make sure you have a &amp;ldquo;public&amp;rdquo; folder, this is where the built website will be stored.&lt;/li&gt;
+&lt;li&gt;you will want to be in your blog folder, e.g, &lt;code&gt;~/Documents/hugo/kitchblog/&lt;/code&gt; then to add the &lt;code&gt;YOUR-NAME.github.io&lt;/code&gt; repo you can type the following:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add -b main https://github.com/YOUR-NAME/YOUR-NAME.github.io.git public
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;This will clone the repository using the main branch &amp;ldquo;-b main&amp;rdquo; while creating a public folder and placing it inside that folder which is where the generated site will be placed once you build it. Change directory back to the root of the hugo site then generate the site.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo -t terminal
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Check the public diretory and you will see the final code. While here you can check the status using:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git status
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;And it should give you a list of untracked files that need to be added to the main branch. To do this use:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Now commit the changes:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &amp;#34;Description&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For the &amp;ldquo;Description&amp;rdquo; you will want to add something like &amp;ldquo;initial commit&amp;rdquo;, this is to keep track of what changes you have made since the last commit, don&amp;rsquo;t make it too lengthy otherwise it won&amp;rsquo;t let you commit the changes and can be a hastle to deal with later. But we aren&amp;rsquo;t done yet. You need to push the changes, do so with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now eveything should appear in Github and it should automatically deploy which you can visit at &lt;code&gt;https://YOUR-NAME.github.io&lt;/code&gt;. Now you can choose to use a GUI git tool to commit and push your changes or you can continue using &lt;code&gt;git commit&lt;/code&gt; and &lt;code&gt;git push&lt;/code&gt; to deploy your changes for both the main repository and the github pages repository.&lt;/p&gt;
+&lt;p&gt;I hope this post helped you in creating a hugo website! As time goes on I will be tweaking this blog post when seen fit, for example, if people find it too confusing, repetitive etc.&lt;/p&gt;
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
 &lt;!-- raw HTML omitted --&gt;
 </content>
     </item>
