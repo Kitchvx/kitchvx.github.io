@@ -2,30 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Nathan&#39;s Blog</title>
-    <link>https://kitchvx.github.io/posts/</link>
+    <link>https://kitch.blog/posts/</link>
     <description>Recent content in Posts on Nathan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2023 Nathan Kitching</copyright>
-    <lastBuildDate>Thu, 13 Apr 2023 22:59:11 +0100</lastBuildDate><atom:link href="https://kitchvx.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Apr 2023 22:59:11 +0100</lastBuildDate><atom:link href="https://kitch.blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Job</title>
-      <link>https://kitchvx.github.io/posts/first-job/</link>
+      <link>https://kitch.blog/posts/first-job/</link>
       <pubDate>Thu, 13 Apr 2023 22:59:11 +0100</pubDate>
       
-      <guid>https://kitchvx.github.io/posts/first-job/</guid>
-      <description>About the Job Just over a couple weeks ago I started my first job within the IT Industry</description>
+      <guid>https://kitch.blog/posts/first-job/</guid>
+      <description>About the Job Just over a couple weeks ago I started my first job within the IT Industry
+Comments </description>
       <content>&lt;h2 id=&#34;about-the-job&#34;&gt;About the Job&lt;/h2&gt;
 &lt;p&gt;Just over a couple weeks ago I started my first job within the IT Industry&lt;/p&gt;
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
 </content>
     </item>
     
     <item>
       <title>Comment Policy</title>
-      <link>https://kitchvx.github.io/posts/comment-policy/</link>
+      <link>https://kitch.blog/posts/comment-policy/</link>
       <pubDate>Thu, 23 Mar 2023 22:57:42 +0000</pubDate>
       
-      <guid>https://kitchvx.github.io/posts/comment-policy/</guid>
+      <guid>https://kitch.blog/posts/comment-policy/</guid>
       <description>By commenting on any discussion on this blog you accpet these terms. The Comment Policy is in place under the best interest of the users and the site itself. The policy will detail about what is expected of the users and what is not acceptable, should the policy be broken by any user it will result in a removal of the comment and/or the banning of their account from the blog.</description>
       <content>&lt;h3 id=&#34;accept&#34;&gt;By commenting on any discussion on this blog you accpet these terms.&lt;/h3&gt;
 &lt;p&gt;The Comment Policy is in place under the best interest of the users and the site itself. The policy will detail about what is expected of the users and what is not acceptable, should the policy be broken by any user it will result in a removal of the comment and/or the banning of their account from the blog.&lt;/p&gt;
@@ -57,10 +60,10 @@
     
     <item>
       <title>Contact</title>
-      <link>https://kitchvx.github.io/posts/contact/</link>
+      <link>https://kitch.blog/posts/contact/</link>
       <pubDate>Tue, 21 Mar 2023 18:21:42 +0000</pubDate>
       
-      <guid>https://kitchvx.github.io/posts/contact/</guid>
+      <guid>https://kitch.blog/posts/contact/</guid>
       <description>You can reach me at: Email Twitter Telegram Instagram Social Media such as Facebook I am on, however I am inactive. These are the only places you can reach me where I am active, anything else I either no longer use or don&amp;rsquo;t have.</description>
       <content>&lt;h1 id=&#34;you-can-reach-me-at&#34;&gt;You can reach me at:&lt;/h1&gt;
 &lt;ul&gt;
@@ -75,10 +78,10 @@
     
     <item>
       <title>About</title>
-      <link>https://kitchvx.github.io/posts/about/</link>
+      <link>https://kitch.blog/posts/about/</link>
       <pubDate>Tue, 21 Mar 2023 17:56:28 +0000</pubDate>
       
-      <guid>https://kitchvx.github.io/posts/about/</guid>
+      <guid>https://kitch.blog/posts/about/</guid>
       <description>About Me. Hi! I&amp;rsquo;m Nathan. I&amp;rsquo;m an 18 y.o tech enthusiast. My hobbies include gaming, video editing, photo manipulation, reading books, socialising with friends and going to the gym. I have a keen interest in computers, computer repair and hardware/software hacking/cybersecurity. I am currently studyin the BTEC Extended Diploma Information Technology at Level 3 in college while persuing apprenticeships for when I leave. In my spare time I like to start projects, such as this Hugo website.</description>
       <content>&lt;h1 id=&#34;about-me&#34;&gt;About Me.&lt;/h1&gt;
 &lt;h2 id=&#34;Hi&#34;&gt;Hi! I&amp;rsquo;m Nathan.&lt;/h2&gt;

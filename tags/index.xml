@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Nathan&#39;s Blog</title>
-    <link>https://kitchvx.github.io/tags/</link>
+    <link>https://kitch.blog/tags/</link>
     <description>Recent content in Tags on Nathan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2023 Nathan Kitching</copyright>
-    <lastBuildDate>Thu, 13 Apr 2023 22:59:11 +0100</lastBuildDate><atom:link href="https://kitchvx.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Apr 2023 22:59:11 +0100</lastBuildDate><atom:link href="https://kitch.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personal</title>
-      <link>https://kitchvx.github.io/tags/personal/</link>
+      <link>https://kitch.blog/tags/personal/</link>
       <pubDate>Thu, 13 Apr 2023 22:59:11 +0100</pubDate>
       
-      <guid>https://kitchvx.github.io/tags/personal/</guid>
+      <guid>https://kitch.blog/tags/personal/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Policy</title>
-      <link>https://kitchvx.github.io/tags/policy/</link>
+      <link>https://kitch.blog/tags/policy/</link>
       <pubDate>Thu, 23 Mar 2023 22:57:42 +0000</pubDate>
       
-      <guid>https://kitchvx.github.io/tags/policy/</guid>
+      <guid>https://kitch.blog/tags/policy/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://kitchvx.github.io/tags/contact/</link>
+      <link>https://kitch.blog/tags/contact/</link>
       <pubDate>Tue, 21 Mar 2023 18:21:42 +0000</pubDate>
       
-      <guid>https://kitchvx.github.io/tags/contact/</guid>
+      <guid>https://kitch.blog/tags/contact/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Web Development</title>
-      <link>https://kitchvx.github.io/tags/web-development/</link>
+      <link>https://kitch.blog/tags/web-development/</link>
       <pubDate>Tue, 21 Mar 2023 17:56:28 +0000</pubDate>
       
-      <guid>https://kitchvx.github.io/tags/web-development/</guid>
+      <guid>https://kitch.blog/tags/web-development/</guid>
       <description></description>
       <content></content>
     </item>
